@@ -1,0 +1,5 @@
+# From http://github.com/suztomo/dotfiles
+for file in $*
+do
+    __rm_single_file $file
+done

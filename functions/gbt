@@ -1,0 +1,2 @@
+# Setup a tracking branch from [remote] [branch_name]
+git branch --track $2 $1/$2 && git checkout $2 

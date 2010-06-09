@@ -1,0 +1,2 @@
+# Git clone from GitHub
+git clone git://github.com/$USER/$1.git

@@ -3,3 +3,4 @@ log/.zsh_history
 projects.zsh
 custom/*.zsh
 !custom/example.zsh
+custom/mercurial_for_zsh/.hg/*

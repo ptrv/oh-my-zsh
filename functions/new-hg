@@ -1,0 +1,3 @@
+# Mercurial hg
+ssh hg@example.com "hg init $1"
+hg clone ssh://hg@example.com/$1

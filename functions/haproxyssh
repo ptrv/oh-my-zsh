@@ -1,0 +1,2 @@
+# Setup a tunnel
+ssh -L7997:127.0.0.1:7997 deploy@$1.com 

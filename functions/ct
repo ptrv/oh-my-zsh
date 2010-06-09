@@ -1,0 +1,3 @@
+# Regenerate TAGS file from file arguments
+rm -f TAGS
+etags --append --output=TAGS $*
