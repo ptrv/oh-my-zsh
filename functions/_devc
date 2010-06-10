@@ -1,0 +1,2 @@
+#compdef devc
+_files -W ~/development -/

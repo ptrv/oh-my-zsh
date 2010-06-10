@@ -1,0 +1,2 @@
+#compdef devr
+_files -W ~/development_ruby -/

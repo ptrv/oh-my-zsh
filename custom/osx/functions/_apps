@@ -1,0 +1,2 @@
+#compdef apps
+_files -W ~/Library/Application\ Support -/

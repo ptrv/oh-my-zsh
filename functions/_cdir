@@ -1,0 +1,2 @@
+#compdef cdir
+_files -W ~/compiledir -/

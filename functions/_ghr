@@ -1,0 +1,2 @@
+#compdef ghr
+_files -W ~/github_repos -/

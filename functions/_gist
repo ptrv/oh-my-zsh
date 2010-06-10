@@ -1,0 +1,2 @@
+#compdef gist
+_files -W ~/gists -/

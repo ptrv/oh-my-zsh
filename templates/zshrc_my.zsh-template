@@ -3,7 +3,7 @@
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
-source $ZSH/custom/env_linux.zsh
+#source $ZSH/custom/env_linux.zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -26,3 +26,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 
+# export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/peter/bin:/opt/local/bin:/Library/Ruby/Gems/1.8/gems:/Users/peter/src/clang:/usr/local/ant/bin:/Users/peter/src/homebrew/bin

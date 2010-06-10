@@ -1,0 +1,2 @@
+#compdef of
+_files -W ~/development/openFrameworks_git/apps/myApps_ofGit -/

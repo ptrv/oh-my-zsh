@@ -1,0 +1,2 @@
+#compdef sem1
+_files -W ~/tu/1.semester -/

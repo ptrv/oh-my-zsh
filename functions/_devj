@@ -1,0 +1,2 @@
+#compdef devj
+_files -W ~/development_java -/

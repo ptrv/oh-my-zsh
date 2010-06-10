@@ -1,0 +1,2 @@
+#compdef juce
+_files -W ~/development/MyLib/juce -/
