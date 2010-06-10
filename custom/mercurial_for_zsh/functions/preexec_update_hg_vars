@@ -1,5 +1,0 @@
-case "$1" in 
-	hg*)
-	export __EXECUTED_HG_COMMAND=1
-	;;
-esac

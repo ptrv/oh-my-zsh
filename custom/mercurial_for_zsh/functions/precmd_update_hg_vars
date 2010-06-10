@@ -1,4 +1,0 @@
-if [ -n "$__EXECUTED_HG_COMMAND" ]; then
-	update_current_hg_vars
-	unset __EXECUTED_HG_COMMAND
-fi

@@ -1,4 +1,0 @@
-Mercurial for ZSH
-To plug this code into your existing .zshrc file, simply add the following link to it:
-
-source /path/to/this/repo/zshrc /path/to/this/repo/
