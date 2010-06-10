@@ -98,14 +98,6 @@ alias eg='emacsclient -c .git/config'
 alias glog='git log'
 
 #Mercurial
-alias hgc='hg commit -v'
-alias hgb='hg branch -v'
-alias hgba='hg branches'
-alias hgco='hg checkout'
-alias hgd='hg diff'
-alias hgl='hg pull'
-alias hgp='hg push'
-alias hgs='hg status'
 alias hgk='hgtk log'
 alias hgch='hg cutehistory'
 
@@ -120,21 +112,21 @@ alias emt="emacsclient -t"
 alias r="rake"
 alias irb='irb --readline -r irb/completion'
 
-# Rails
-alias ss='./script/server'
-alias sc='./script/console'
-alias sg='./script/generate'
-alias sp='./script/plugin'
+# # Rails
+# alias ss='./script/server'
+# alias sc='./script/console'
+# alias sg='./script/generate'
+# alias sp='./script/plugin'
 
-# Subversion
-alias sst="svn status"
-alias scom="svn commit"
-alias sex="svn export"
-alias sup="svn update"
-alias sco="svn checkout"
-alias sd='svn diff'
-alias slog='svn log | more'
-alias svnunhook="find . -name '.svn' -exec rm -rf {} \;"
+# # Subversion
+# alias sst="svn status"
+# alias scom="svn commit"
+# alias sex="svn export"
+# alias sup="svn update"
+# alias sco="svn checkout"
+# alias sd='svn diff'
+# alias slog='svn log | more'
+# alias svnunhook="find . -name '.svn' -exec rm -rf {} \;"
 
 # alias gcc="/usr/bin/gcc-4.0"
 # alias cpp="/usr/bin/cpp-4.0"

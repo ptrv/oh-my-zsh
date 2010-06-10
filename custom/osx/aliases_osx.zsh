@@ -103,16 +103,6 @@ alias glog='git log'
 alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
 
-#Mercurial
-alias hgc='hg commit -v'
-alias hgb='hg branch -v'
-alias hgba='hg branches'
-alias hgco='hg checkout'
-alias hgd='hg diff'
-alias hgl='hg pull'
-alias hgp='hg push'
-alias hgs='hg status'
-
 # Text editing
 # Emacs
 alias em="open -a Emacs"
@@ -127,33 +117,15 @@ alias etr="mate app config lib db schema public spec test vendor/gems vendor/plu
 alias r="rake"
 alias irb='irb --readline -r irb/completion'
 
-# Rails
-alias ss='./script/server'
-alias sc='./script/console'
-alias sg='./script/generate'
-alias sp='./script/plugin'
-
-# XCode
-# Analyze release build
-alias sx="xcodebuild clean && ~/src/clang/scan-build -k -V xcodebuild"
-# Analyze test build
-alias sxt="xcodebuild -target Test clean && ~/src/clang/scan-build -k -V xcodebuild -target Test"
-alias ox="open *.xcodeproj"
-alias xcb="xcodebuild"
-alias xcbr="xcodebuild -configuration Release"
-alias xcbd="xcodebuild -configuration Debug"
-alias xccb="xcodebuild clean && xcodebuild"
+# # Rails
+# alias ss='./script/server'
+# alias sc='./script/console'
+# alias sg='./script/generate'
+# alias sp='./script/plugin'
 
 # Subversion
-alias sst="svn status"
-alias scom="svn commit"
-alias sex="svn export"
-alias sup="svn update"
-alias sco="svn checkout"
-alias sd='svn diff'
-alias slog='svn log | more'
-alias svnunhook="find . -name '.svn' -exec rm -rf {} \;"
 alias swc="svnx -w pwd"
+
 # todo.sh
 # alias t="todo.sh"
 
