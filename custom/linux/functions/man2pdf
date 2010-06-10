@@ -1,0 +1,1 @@
+T=/tmp/$$.pdf;man -t $1 |ps2pdf - >$T; evince $T; rm -f $T;

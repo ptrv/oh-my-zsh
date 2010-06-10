@@ -7,11 +7,13 @@ alias treeh="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" # tree with
 # alias lla="ls -la"
 
 # Folder aliases
+alias dropbox="open ~/Dropbox"
+alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben"
 
 # Utility
-alias reload='source ~/.oh-my-zsh/custom/aliases.zsh'
-alias ea='emacsclient -c ~/.oh-my-zsh/custom/aliases.zsh && reload' # Edit aliases
-alias ee="emacsclient -c -n ~/.oh-my-zsh/custom/env_linux.zsh"
+alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
+alias ea='emacsclient -c $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
+alias ee="emacsclient -c -n $ZSH/custom/linux/env_linux.zsh"
 
 # Push and pop directories on directory stack
 alias pu='pushd'

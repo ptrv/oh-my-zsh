@@ -1,0 +1,2 @@
+#compdef sc3
+_files -W ~/share/SuperCollider -/
