@@ -103,6 +103,9 @@ alias glog='git log'
 alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
 
+# Mercurial
+alias hgk="murky"
+
 # Text editing
 # Emacs
 alias em="open -a Emacs"
