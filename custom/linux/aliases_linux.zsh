@@ -100,8 +100,11 @@ alias eg='emacsclient -c .git/config'
 alias glog='git log'
 
 #Mercurial
-alias hgk='hgtk log'
-alias hgch='hg cutehistory'
+alias hgtc='hgtk commit'
+alias hgtl='hgtk log'
+alias hgts='hgtk status'
+alias hgtr='hgtk repoconfig'
+alias hge="emacsclient -c .hg/hgrc"
 
 # Text editing
 # Emacs
