@@ -8,7 +8,7 @@ alias treeh="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" # tree with
 
 # Folder aliases
 alias dropbox="open ~/Dropbox"
-alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben"
+alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
@@ -60,7 +60,7 @@ alias 7='cd +7'
 alias 8='cd +8'
 alias 9='cd +9'
 
-alias grep='grep -i' # --color=auto'  case insensitive grep
+alias grep='grep -in' # --color=auto'  case insensitive grep
 
 alias e='exit'
 alias k9="killall -9"
@@ -100,10 +100,13 @@ alias eg='emacsclient -c .git/config'
 alias glog='git log'
 
 #Mercurial
+alias hgtcl='hgtk clone'
+alias hgta='hgtk add'
 alias hgtc='hgtk commit'
 alias hgtl='hgtk log'
 alias hgts='hgtk status'
 alias hgtr='hgtk repoconfig'
+alias hgtp='hgtk synch'
 alias hge="emacsclient -c .hg/hgrc"
 
 # Text editing
