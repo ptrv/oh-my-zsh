@@ -29,3 +29,5 @@ export JRUBY_HOME=~/src/jruby
 export PATH=$PATH:$JRUBY_HOME/bin
 
 export PYTHONPATH=/usr/lib/python2.6/site-packages:${PYTHONPATH}
+
+export PATH=$PATH:~/src/fast-export/bin
