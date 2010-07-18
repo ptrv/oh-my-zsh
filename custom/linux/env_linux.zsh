@@ -31,3 +31,6 @@ export PATH=$PATH:$JRUBY_HOME/bin
 export PYTHONPATH=/usr/lib/python2.6/site-packages:${PYTHONPATH}
 
 export PATH=$PATH:~/src/fast-export/bin
+
+#export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiff
+export GIT_EXTERNAL_DIFF=/home/peter/bin/extP4diff
