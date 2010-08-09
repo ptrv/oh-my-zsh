@@ -1,5 +1,5 @@
 # PATH
-export PATH=$PATH:~/bin
+export PATH=~/bin:$PATH
 
 # General
 export PAGER=less
@@ -10,8 +10,8 @@ export RUBYOPT=-rrubygems
 # export GREP_OPTIONS='--color=auto' 
 # export GREP_COLOR='1;36'
 
-export EDITOR="mate -w"
-
+#export EDITOR="mate -w"
+export EDITOR="/Users/peter/bin/vim"
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH
 
 # Macports ----------------
@@ -45,3 +45,7 @@ export SVN_EDITOR='mate -w'
 
 export PYTHONPATH=/usr/bin/python
 # export PATH=$PATH:~/sclang
+
+# export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
+# export GIT_EXTERNAL_DIFF=~/bin/extFileMerge
+# export GIT_EXTERNAL_DIFF=~/bin/extKdiff3
