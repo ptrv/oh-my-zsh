@@ -11,11 +11,12 @@ alias lsd="ls -l | grep ^d"
 #alias sc3="cd ~/Library/Application\ Support/SuperCollider"
 #alias apps="cd ~/Library/Application\ Support"
 alias dropbox="open ~/Dropbox"
+alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
 # Utility
 alias reload='source $ZSH/custom/osx/aliases_osx.zsh'
-alias ea='mate -w $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
-alias ee="mate $ZSH/custom/osx/env_osx.zsh"
+alias ea='mvim -f $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
+alias ee="mvim $ZSH/custom/osx/env_osx.zsh"
 
 # Push and pop directories on directory stack
 alias pu='pushd'
@@ -98,7 +99,7 @@ alias gst='git status'
 alias gt='tig status'
 alias t='tig'
 alias g='git status'
-alias eg='mate .git/config'
+alias eg='mvim .git/config'
 alias glog='git log'
 alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
