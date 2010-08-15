@@ -12,8 +12,8 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
-alias ea='emacsclient -c $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
-alias ee="emacsclient -c -n $ZSH/custom/linux/env_linux.zsh"
+alias ea='gvim -f $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
+alias ee="gvim $ZSH/custom/linux/env_linux.zsh"
 
 # Push and pop directories on directory stack
 alias pu='pushd'
@@ -96,7 +96,7 @@ alias gst='git status'
 alias t='tig'
 alias gt='tig status'
 alias g='git status'
-alias eg='emacsclient -c .git/config'
+alias eg='gvim -f .git/config'
 alias glog='git log'
 
 #Mercurial
@@ -107,7 +107,7 @@ alias hgtl='hgtk log'
 alias hgts='hgtk status'
 alias hgtr='hgtk repoconfig'
 alias hgtp='hgtk synch'
-alias hge="emacsclient -c .hg/hgrc"
+alias hge="gvim -f .hg/hgrc"
 
 # Text editing
 # Emacs
