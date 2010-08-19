@@ -14,7 +14,7 @@ export GREP_COLOR='1;36'
 
 
 #export EDITOR="emacsclient -c"
-#export ALTERNATE_EDITOR=""
+export ALTERNATE_EDITOR=""
 export EDITOR=vim
 #export MATLAB="/usr/local/matlab7"
 #export MATLAB_JAVA="/usr/local/matlab7/sys/java/jre/glnx86/jre1.4.2"
