@@ -21,7 +21,7 @@ alias po='popd'
 alias d='dirs -v'
 
 # Essential
-alias cp='cp -iv'
+alias cp='cp -v'
 alias mv='mv -iv'
 alias rm='rm -v'
 alias ln='ln -iv'
@@ -96,7 +96,7 @@ alias gst='git status'
 alias t='tig'
 alias gt='tig status'
 alias g='git status'
-alias eg='gvim -f .git/config'
+alias eg='vim .git/config'
 alias glog='git log'
 
 #Mercurial
@@ -107,7 +107,7 @@ alias hgtl='hgtk log'
 alias hgts='hgtk status'
 alias hgtr='hgtk repoconfig'
 alias hgtp='hgtk synch'
-alias hge="gvim -f .hg/hgrc"
+alias hge="vim .hg/hgrc"
 
 # Text editing
 # Emacs

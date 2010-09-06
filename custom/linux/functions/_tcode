@@ -1,0 +1,2 @@
+#compdef tcode
+_files -W ~/tlabs/code/GLSamples/code -/
