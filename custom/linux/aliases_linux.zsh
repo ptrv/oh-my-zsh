@@ -166,3 +166,6 @@ alias rm-Dot_git="find . -name '.git' -exec rm -rf '{}' \;"
 # iftop shows Bytes/sec
 alias iftop="sudo iftop -B"
 
+# osx pbcopy / pbpaste 
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
