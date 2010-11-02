@@ -21,7 +21,7 @@ alias po='popd'
 alias d='dirs -v'
 
 # Essential
-alias cp='cp -iv'
+alias cp='cp -v'
 alias mv='mv -iv'
 alias rm='rm -v'
 alias ln='ln -iv'
@@ -77,6 +77,8 @@ alias tu='top -o cpu' # cpu
 alias tm='top -o rsize' # memory
 
 # Git
+# alias git='hub'
+function git(){hub $@}
 alias wtf="git-wtf"
 alias gx="cola -r . &"
 alias gk="gitk --all &"
@@ -96,7 +98,7 @@ alias gst='git status'
 alias t='tig'
 alias gt='tig status'
 alias g='git status'
-alias eg='gvim -f .git/config'
+alias eg='vim .git/config'
 alias glog='git log'
 
 #Mercurial
@@ -107,7 +109,7 @@ alias hgtl='hgtk log'
 alias hgts='hgtk status'
 alias hgtr='hgtk repoconfig'
 alias hgtp='hgtk synch'
-alias hge="gvim -f .hg/hgrc"
+alias hge="vim .hg/hgrc"
 
 # Text editing
 # Emacs
@@ -164,3 +166,6 @@ alias rm-Dot_git="find . -name '.git' -exec rm -rf '{}' \;"
 # iftop shows Bytes/sec
 alias iftop="sudo iftop -B"
 
+# osx pbcopy / pbpaste 
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
