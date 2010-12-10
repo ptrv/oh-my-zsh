@@ -10,8 +10,8 @@ export RUBYOPT=-rrubygems
 # export GREP_OPTIONS='--color=auto' 
 # export GREP_COLOR='1;36'
 
-#export EDITOR="mate -w"
-export EDITOR="/Users/peter/bin/vim"
+export EDITOR="mate -w"
+#export EDITOR="/Users/peter/bin/vim"
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH
 # export PATH=$PATH:~/compiledir/SuperCollider3/mac
 
@@ -35,7 +35,7 @@ export PATH=$PATH:$CLANG
 export ANT_HOME=/usr/local/ant
 export PATH=${PATH}:${ANT_HOME}/bin
 
-export PATH=$PATH:~/src/homebrew/bin
+#export PATH=$PATH:~/src/homebrew/bin
 # export CC=/usr/bin/gcc-4.0 
 # export CPP=/usr/bin/cpp-4.0 
 # export CXX=/usr/bin/g++-4.0 
@@ -45,7 +45,7 @@ export PATH=$PATH:~/src/homebrew/bin
 export SVN_EDITOR='mate -w'
 
 export PYTHONPATH=/usr/bin/python
-# export PATH=$PATH:~/sclang
+export PATH=$PATH:~/sclang
 
 # export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
 #export GIT_EXTERNAL_DIFF=~/bin/extFileMerge

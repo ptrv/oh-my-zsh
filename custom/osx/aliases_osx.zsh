@@ -13,10 +13,13 @@ alias lsd="ls -l | grep ^d"
 alias dropbox="open ~/Dropbox"
 alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
+#alias gnuplot='/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot'
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+
 # Utility
 alias reload='source $ZSH/custom/osx/aliases_osx.zsh'
-alias ea='mvim -f $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
-alias ee="mvim $ZSH/custom/osx/env_osx.zsh"
+alias ea='mate $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
+alias ee="mate $ZSH/custom/osx/env_osx.zsh"
 
 # Push and pop directories on directory stack
 alias pu='pushd'
@@ -79,6 +82,7 @@ alias tu='top -o cpu' # cpu
 alias tm='top -o rsize' # memory
 
 # Git
+function git(){hub $@}
 #alias git="hub"
 alias wtf="git-wtf"
 alias gx="gitx"
@@ -99,7 +103,7 @@ alias gst='git status'
 alias gt='tig status'
 alias t='tig'
 alias g='git status'
-alias eg='mvim .git/config'
+alias eg='mate .git/config'
 alias glog='git log'
 alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
