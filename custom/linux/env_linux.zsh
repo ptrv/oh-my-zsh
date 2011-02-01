@@ -20,11 +20,13 @@ export EDITOR=vim
 #export MATLAB_JAVA="/usr/local/matlab7/sys/java/jre/glnx86/jre1.4.2"
 #LD_LIBRARY_PATH="/usr/local/matlab7/bin/glnx86:$LD_LIBRARY_PATH"
 #export LD_LIBRARY_PATH
-export CC=gcc-4.3
-export VST_PLUGINS="~/vsts"
-export VST_PATH="/usr/lib/vst"
+#export CC=gcc-4.3
+#export VST_PLUGINS="~/vsts"
+export VST_PATH="/home/peter/vsts"
 export SC_SOURCE_DIR="~/compiledir/SuperCollider3"
 export QTDIR="/usr/share/qt4"
+
+export PATH=$PATH:/var/lib/gems/bin
 
 export JRUBY_HOME=~/src/jruby
 export PATH=$PATH:$JRUBY_HOME/bin
@@ -39,3 +41,5 @@ export PATH=$PATH:~/src/fast-export/bin
 #export GIT_EXTERNAL_DIFF=/home/peter/bin/extP4diff
 #export GIT_EXTERNAL_DIFF=/home/peter/bin/extKdiff3
 export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiffMerge
+
+source /etc/profile
