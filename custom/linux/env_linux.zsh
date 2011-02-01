@@ -39,3 +39,7 @@ export PATH=$PATH:~/src/fast-export/bin
 #export GIT_EXTERNAL_DIFF=/home/peter/bin/extP4diff
 #export GIT_EXTERNAL_DIFF=/home/peter/bin/extKdiff3
 export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiffMerge
+
+source /etc/profile
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lin/jni
