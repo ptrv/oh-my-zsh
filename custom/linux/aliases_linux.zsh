@@ -100,6 +100,7 @@ alias gt='tig status'
 alias g='git status'
 alias eg='vim .git/config'
 alias glog='git log'
+alias gsub='git branch --set-upstream'
 
 #Mercurial
 alias hgtcl='hgtk clone'
