@@ -1,0 +1,2 @@
+#compdef mpi
+_files -W ~/tu/3.semester/mpi/code/mpi_workspace -/

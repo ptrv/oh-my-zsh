@@ -13,6 +13,7 @@ export RUBYOPT=-rrubygems
 #export EDITOR="mate -w"
 export EDITOR="/Users/peter/bin/vim"
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH
+# export PATH=$PATH:~/compiledir/SuperCollider3/mac
 
 # Macports ----------------
 export PATH=$PATH:/opt/local/bin
@@ -47,5 +48,8 @@ export PYTHONPATH=/usr/bin/python
 # export PATH=$PATH:~/sclang
 
 # export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
-# export GIT_EXTERNAL_DIFF=~/bin/extFileMerge
+#export GIT_EXTERNAL_DIFF=~/bin/extFileMerge
 # export GIT_EXTERNAL_DIFF=~/bin/extKdiff3
+# export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
+
+export PATH=$PATH:/Users/peter/development_java/libs/android-sdk-mac_x86/tools
