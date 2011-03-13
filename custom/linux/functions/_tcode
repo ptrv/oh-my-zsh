@@ -1,2 +1,2 @@
 #compdef tcode
-_files -W ~/tlabs/code/GLSamples/code -/
+_files -W ~/tlabs/GLSamples/code -/
