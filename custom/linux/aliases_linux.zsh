@@ -115,7 +115,7 @@ alias hge="vim .hg/hgrc"
 # Text editing
 # Emacs
 #alias emacs="emacsclient"
-alias em="emacsclient -c -n"
+alias em="emacsclient -n"
 alias emm="emacsclient -c"
 alias emt="emacsclient -t"
 
@@ -170,3 +170,6 @@ alias iftop="sudo iftop -B"
 # osx pbcopy / pbpaste 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+# cpu info
+alias cpuinfo='cat /proc/cpuinfo'
