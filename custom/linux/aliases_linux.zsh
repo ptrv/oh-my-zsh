@@ -111,11 +111,12 @@ alias hgts='hgtk status'
 alias hgtr='hgtk repoconfig'
 alias hgtp='hgtk synch'
 alias hge="vim .hg/hgrc"
+alias hgk="hg view"
 
 # Text editing
 # Emacs
 #alias emacs="emacsclient"
-alias em="emacsclient -n"
+alias em="emacsclient -n -c"
 alias emm="emacsclient -c"
 alias emt="emacsclient -t"
 
