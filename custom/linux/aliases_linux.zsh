@@ -102,14 +102,7 @@ alias eg='vim .git/config'
 alias glog='git log'
 alias gsub='git branch --set-upstream'
 
-#Mercurial
-alias hgtcl='hgtk clone'
-alias hgta='hgtk add'
-alias hgtc='hgtk commit'
-alias hgtl='hgtk log'
-alias hgts='hgtk status'
-alias hgtr='hgtk repoconfig'
-alias hgtp='hgtk synch'
+# Mercurial
 alias hge="vim .hg/hgrc"
 alias hgk="hg view"
 

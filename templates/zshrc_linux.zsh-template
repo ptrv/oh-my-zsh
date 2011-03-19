@@ -21,7 +21,7 @@ export ZSH_THEME="lokijuhz4"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mercurial subversion)
+plugins=(git mercurial subversion tortoisehg git-flow-completion)
 
 source $ZSH/oh-my-zsh.sh
 
