@@ -101,6 +101,7 @@ alias g='git status'
 alias eg='vim .git/config'
 alias glog='git log'
 alias gsub='git branch --set-upstream'
+alias gflow='git flow'
 
 # Mercurial
 alias hge="vim .hg/hgrc"
