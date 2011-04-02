@@ -114,6 +114,9 @@ alias em="emacsclient -n -c"
 alias emm="emacsclient -c"
 alias emt="emacsclient -t"
 
+# Django
+alias djm="python manage.py"
+
 # Ruby
 alias r="rake"
 alias irb='irb --readline -r irb/completion'
