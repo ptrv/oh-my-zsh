@@ -114,6 +114,9 @@ alias em="emacsclient -n -c"
 alias emm="emacsclient -c"
 alias emt="emacsclient -t"
 
+# Cmake
+function cmg(){cmake-gui $@ &}
+
 # Django
 alias djm="python manage.py"
 
