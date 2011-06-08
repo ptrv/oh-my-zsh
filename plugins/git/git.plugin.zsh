@@ -2,9 +2,9 @@
 # alias g='git'
 # compdef g=git
 alias g='git status'
-compdef g=git-status
+#compdef g=git-status
 alias gst='git status'
-compdef _git gst=git-status
+#compdef _git gst=git-status
 alias gl='git pull'
 compdef _git gl=git-pull
 alias gup='git fetch && git rebase'
