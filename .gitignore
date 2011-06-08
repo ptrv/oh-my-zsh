@@ -2,5 +2,6 @@ locals.zsh
 log/.zsh_history
 projects.zsh
 custom/*
+!custom/example
 !custom/example.zsh
-custom/mercurial_for_zsh/.hg/*
+cache
