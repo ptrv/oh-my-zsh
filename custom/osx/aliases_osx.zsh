@@ -14,12 +14,15 @@ alias dropbox="open ~/Dropbox"
 alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
 #alias gnuplot='/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot'
-alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+alias emacs="/Applications/Aquamacs.app/Contents/MacOS/Aquamacs"
+alias emacsclient="/Applications/Aquamacs.app/Contents/MacOS/bin/emacsclient"
 
 # Utility
 alias reload='source $ZSH/custom/osx/aliases_osx.zsh'
-alias ea='mate $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
-alias ee="mate $ZSH/custom/osx/env_osx.zsh"
+# alias ea='mate $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
+# alias ee="mate $ZSH/custom/osx/env_osx.zsh"
+alias ea='vim $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
+alias ee="vim $ZSH/custom/osx/env_osx.zsh"
 
 # Push and pop directories on directory stack
 alias pu='pushd'
@@ -94,8 +97,8 @@ alias gba='git branch -a'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gco='git checkout'
-alias gd='git diff | mate'
-alias gdm='git diff master | mate'
+alias gd='git diff'
+alias gdm='git diff master'
 alias gl='git pull'
 alias gnp="git-notpushed"
 alias gp='git push'
@@ -103,7 +106,7 @@ alias gst='git status'
 alias gt='tig status'
 alias t='tig'
 alias g='git status'
-alias eg='mate .git/config'
+alias eg='vim .git/config'
 alias glog='git log'
 alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
