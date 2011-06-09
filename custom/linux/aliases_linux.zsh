@@ -101,23 +101,24 @@ alias g='git status'
 alias eg='vim .git/config'
 alias glog='git log'
 alias gsub='git branch --set-upstream'
+alias gflow='git flow'
 
-#Mercurial
-alias hgtcl='hgtk clone'
-alias hgta='hgtk add'
-alias hgtc='hgtk commit'
-alias hgtl='hgtk log'
-alias hgts='hgtk status'
-alias hgtr='hgtk repoconfig'
-alias hgtp='hgtk synch'
+# Mercurial
 alias hge="vim .hg/hgrc"
+alias hgk="hg view"
 
 # Text editing
 # Emacs
 #alias emacs="emacsclient"
-alias em="emacsclient -n"
+alias em="emacsclient -n -c"
 alias emm="emacsclient -c"
 alias emt="emacsclient -t"
+
+# Cmake
+function cmg(){cmake-gui $@ &}
+
+# Django
+alias djm="python manage.py"
 
 # Ruby
 alias r="rake"

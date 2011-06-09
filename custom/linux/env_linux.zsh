@@ -38,11 +38,20 @@ export PATH=$PATH:~/android-sdk-linux_x86/tools
 
 export PATH=$PATH:~/src/fast-export/bin
 
-#export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiff
-#export GIT_EXTERNAL_DIFF=/home/peter/bin/extP4diff
-#export GIT_EXTERNAL_DIFF=/home/peter/bin/extKdiff3
-export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiffMerge
+# export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiff
+# export GIT_EXTERNAL_DIFF=/home/peter/bin/extP4diff
+# export GIT_EXTERNAL_DIFF=/home/peter/bin/extKdiff3
+# export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiffMerge
 
 source /etc/profile
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lin/jni
+
+export RSENSE_HOME=/opt/rsense-0.3
+
+# Clang
+# export CLANG_PATH=~/compilers/bin
+# # scan build
+# export SCANBUILD_PATH=~/compiledir/llvm/tools/clang/tools/scan-build
+# export SCANBUILDVIEW_PATH=~/compiledir/llvm/tools/clang/tools/scan-view
+# export PATH=$CLANG_PATH:$SCANBUILD_PATH:$SCANBUILDVIEW_PATH:$PATH
