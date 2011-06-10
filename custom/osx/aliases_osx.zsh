@@ -85,7 +85,7 @@ alias tu='top -o cpu' # cpu
 alias tm='top -o rsize' # memory
 
 # Git
-function git(){hub $@}
+# function git(){hub $@}
 #alias git="hub"
 alias wtf="git-wtf"
 alias gx="gitx"
@@ -118,11 +118,6 @@ alias hgk="murky"
 # Emacs
 alias em="open -a Emacs"
 alias emm="open -a Emacs ."
-
-# TextMate
-alias et="mate"
-alias ett="mate ."
-alias etr="mate app config lib db schema public spec test vendor/gems vendor/plugins Rakefile Capfile Vladfile Todofile README stories merb slices tasks features &"
 
 # Ruby
 alias r="rake"
