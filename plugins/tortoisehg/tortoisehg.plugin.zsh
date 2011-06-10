@@ -1,10 +1,10 @@
 # TortoiseHg
 
-alias hgtcl='hgtk clone'
-alias hgta='hgtk add'
-alias hgtc='hgtk commit'
-alias hgtl='hgtk log'
-alias hgts='hgtk status'
-alias hgtr='hgtk repoconfig'
-alias hgtp='hgtk synch'
+alias hgtcl='thg clone'
+alias hgta='thg add'
+alias hgtc='thg commit'
+alias hgtl='thg log'
+alias hgts='thg status'
+alias hgtr='thg repoconfig'
+alias hgtp='thg synch'
 
