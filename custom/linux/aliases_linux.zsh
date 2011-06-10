@@ -78,7 +78,7 @@ alias tm='top -o rsize' # memory
 
 # Git
 # alias git='hub'
-function git(){hub $@}
+# function git(){hub $@}
 alias wtf="git-wtf"
 alias gx="cola -r . &"
 alias gk="gitk --all &"
