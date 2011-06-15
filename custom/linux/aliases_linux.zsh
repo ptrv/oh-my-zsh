@@ -1,4 +1,5 @@
 # aliases ----------------
+alias sl=sl
 alias lsd="ls -l | grep ^d"
 alias treeh="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" # tree with hidden files
 # alias tree="find . ! -name '\.*' -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'" # tree without hidden files
@@ -12,8 +13,8 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
-alias ea='gvim -f $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
-alias ee="gvim $ZSH/custom/linux/env_linux.zsh"
+alias ea='vim -f $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
+alias ee="vim $ZSH/custom/linux/env_linux.zsh"
 
 # Push and pop directories on directory stack
 alias pu='pushd'
