@@ -112,6 +112,8 @@ alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
 
 # Mercurial
+alias hge="vim .hg/hgrc"
+#alias hgk="hg view"
 alias hgk="murky"
 
 # Text editing
