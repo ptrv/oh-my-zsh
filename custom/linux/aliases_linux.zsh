@@ -111,8 +111,8 @@ alias hgk="hg view"
 # Text editing
 # Emacs
 #alias emacs="emacsclient"
-alias em="emacsclient -n -c"
-alias emm="emacsclient -c"
+alias emm="emacsclient -n -c"
+alias em="emacsclient -c"
 alias emt="emacsclient -t"
 
 # Cmake
