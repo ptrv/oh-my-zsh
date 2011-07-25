@@ -16,6 +16,7 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 #alias gnuplot='/Applications/Gnuplot.app/Contents/Resources/bin/gnuplot'
 alias emacs="/Applications/Aquamacs.app/Contents/MacOS/Aquamacs"
 alias emacsclient="/Applications/Aquamacs.app/Contents/MacOS/bin/emacsclient"
+# alias love="/Applications/love.app/Contents/MacOS/love"
 
 # Utility
 alias reload='source $ZSH/custom/osx/aliases_osx.zsh'
@@ -103,8 +104,8 @@ alias gl='git pull'
 alias gnp="git-notpushed"
 alias gp='git push'
 alias gst='git status'
-alias gt='tig status'
-alias t='tig'
+# alias gt='tig status'
+# alias t='tig'
 alias g='git status'
 alias eg='vim .git/config'
 alias glog='git log'
@@ -118,8 +119,8 @@ alias hgk="murky"
 
 # Text editing
 # Emacs
-alias em="open -a Emacs"
-alias emm="open -a Emacs ."
+alias em="open -a emacs"
+alias emm="open -a emacs ."
 
 # Ruby
 alias r="rake"
