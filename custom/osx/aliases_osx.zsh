@@ -20,6 +20,7 @@ alias emacsclient="/Applications/Aquamacs.app/Contents/MacOS/bin/emacsclient"
 
 # Utility
 alias reload='source $ZSH/custom/osx/aliases_osx.zsh'
+alias sz="echo 'source ~/.zshrc' && source ~/.zshrc"
 # alias ea='mate $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases
 # alias ee="mate $ZSH/custom/osx/env_osx.zsh"
 alias ea='vim $ZSH/custom/osx/aliases_osx.zsh && reload' # Edit aliases

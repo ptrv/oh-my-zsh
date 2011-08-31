@@ -13,6 +13,7 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
+alias sz="echo 'source ~/.zshrc' && source ~/.zshrc"
 alias ea='vim -f $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
 alias ee="vim $ZSH/custom/linux/env_linux.zsh"
 
