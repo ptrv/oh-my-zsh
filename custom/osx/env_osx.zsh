@@ -1,5 +1,6 @@
 # PATH
-export PATH=~/bin:~/QtSDK/Desktop/Qt/473/gcc/bin:/usr/local/bin:/usr/local/sbin:$PATH
+# export PATH=~/bin:~/QtSDK/Desktop/Qt/473/gcc/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 # 
 # General
 export PAGER=less
@@ -29,7 +30,7 @@ export PATH=$PATH:/Library/Ruby/Gems/1.8/gems
 # # PATH="/Library/Frameworks/Python.framework/Versions/Current/bin:${PATH}"
 # # export PATH
 # 
-export CLANG=~/src/clang
+# export CLANG=~/src/clang
 # export PATH=$PATH:$CLANG
 
 export ANT_HOME=/usr/local/ant
@@ -53,10 +54,12 @@ export PATH=$PATH:~/sclang
 # export GIT_EXTERNAL_DIFF=~/bin/extKdiff3
 # export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
 
-export PATH=$PATH:/Users/peter/development_java/libs/android-sdk-mac_x86/tools
+export PATH=$PATH:/Users/peter/SDKs/android-sdk-mac_x86/tools
 
 # export QTDIR='/Users/peter/QtSDK/Desktop/Qt/473/gcc'
 
 # export PATH=$PATH:'/Applications/Racket v5.1.1/bin/'
 # export DYLD_FRAMEWORK_PATH='/Applications/Racket v5.1.1/lib'
 # export DYLD_LIBRARY_PATH=/Users/peter/sclang
+
+export HOMEBREW_VERBOSE
