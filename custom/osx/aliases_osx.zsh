@@ -91,6 +91,7 @@ alias tm='top -o rsize' # memory
 #alias git="hub"
 alias wtf="git-wtf"
 alias gx="gitx"
+alias gy="gity"
 alias gk="gitk --all &"
 alias ggui="git gui &"
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
