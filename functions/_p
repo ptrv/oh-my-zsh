@@ -1,2 +1,2 @@
 #compdef p
-_files -W ~/Projects -/
+_files -W ~/projects -/
