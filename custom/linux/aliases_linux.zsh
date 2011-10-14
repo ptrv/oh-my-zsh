@@ -68,7 +68,7 @@ alias e='exit'
 alias k9="killall -9"
 
 # Finder
-alias o='nautilus --browser .'
+alias o='nautilus .'
 # alias o='open .'
 alias ff='open -a Firefox'
 
