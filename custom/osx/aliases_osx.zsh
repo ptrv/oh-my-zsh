@@ -121,8 +121,8 @@ alias hgk="murky"
 
 # Text editing
 # Emacs
-alias em="open -a emacs"
-alias emm="open -a emacs ."
+alias em="emacsclient -c"
+alias emm="emacsclient -t"
 
 # Ruby
 alias r="rake"
