@@ -33,7 +33,9 @@ export PATH=$PATH:/Library/Ruby/Gems/1.8/gems
 # export CLANG=~/src/clang
 # export PATH=$PATH:$CLANG
 
-export ANT_HOME=/usr/local/ant
+# export JAVA_HOME=/usr/libexec/java_home
+# 
+# export ANT_HOME=/usr/local/ant
 # export PATH=${PATH}:${ANT_HOME}/bin
 
 #export PATH=$PATH:~/src/homebrew/bin
@@ -44,17 +46,18 @@ export ANT_HOME=/usr/local/ant
 #export PKG_CONFIG_PATH="/usr/local/lib"
 
 # export SVN_EDITOR='mate -w'
-export SVN_EDITOR='vim'
+export SVN_EDITOR=$EDITOR
 
 export PYTHONPATH=/usr/bin/python
 export PATH=$PATH:~/sclang
 
-# export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
-#export GIT_EXTERNAL_DIFF=~/bin/extFileMerge
+export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
+# export GIT_EXTERNAL_DIFF=~/bin/extFileMerge
 # export GIT_EXTERNAL_DIFF=~/bin/extKdiff3
 # export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
+# export GIT_EXTERNAL_DIFF=~/bin/extVimDiff
 
-export PATH=$PATH:/Users/peter/SDKs/android-sdk-mac_x86/tools
+export PATH=$PATH:/Users/peter/SDKs/android-sdk-mac_x86/platform-tools
 
 # export QTDIR='/Users/peter/QtSDK/Desktop/Qt/473/gcc'
 
@@ -63,3 +66,9 @@ export PATH=$PATH:/Users/peter/SDKs/android-sdk-mac_x86/tools
 # export DYLD_LIBRARY_PATH=/Users/peter/sclang
 
 export HOMEBREW_VERBOSE
+
+BREW_PREFIX=`brew --prefix`
+export PATH=$BREW_PREFIX/share/python:$BREW_PREFIX/bin:$BREW_PREFIX/sbin:$PATH
+export PYTHONPATH=$BREW_PREFIX/lib/python:$PYTHONPATH
+
+export TORTOISEHG_PATH=~/hg_repos/TortoiseHg
