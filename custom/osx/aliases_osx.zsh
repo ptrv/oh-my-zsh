@@ -160,3 +160,6 @@ alias gwd="pwd | pbcopy"
 alias rm-DS_Store="find . -name '.DS_Store' -exec rm '{}' \;"
 alias rm-Dot_svn="find . -name '.svn' -exec rm -rf '{}' \;"
 alias rm-Dot_git="find . -name '.git' -exec rm -rf '{}' \;"
+
+# homebrew
+alias bu="brew update"
