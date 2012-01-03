@@ -51,7 +51,7 @@ export SVN_EDITOR=$EDITOR
 export PYTHONPATH=/usr/bin/python
 export PATH=$PATH:~/sclang
 
-export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
+# export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
 # export GIT_EXTERNAL_DIFF=~/bin/extFileMerge
 # export GIT_EXTERNAL_DIFF=~/bin/extKdiff3
 # export GIT_EXTERNAL_DIFF=~/bin/extDiffMerge
