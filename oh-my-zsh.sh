@@ -28,7 +28,11 @@ plugin=${plugin:=()}
 for plugin ($plugins); do
   if [ -f $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh ]; then
     fpath=($ZSH_CUSTOM/plugins/$plugin $fpath)
+  elif [ -d  $ZSH_CUSTOM/plugins/$plugin ]; then
+    fpath=($ZSH_CUSTOM/plugins/$plugin $fpath)
   elif [ -f $ZSH/plugins/$plugin/$plugin.plugin.zsh ]; then
+    fpath=($ZSH/plugins/$plugin $fpath)
+  elif [ -d  $ZSH/plugins/$plugin ]; then
     fpath=($ZSH/plugins/$plugin $fpath)
   fi
 done
