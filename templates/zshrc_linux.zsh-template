@@ -1,22 +1,22 @@
 # Customize to your needs...
 
 # Path to your oh-my-zsh configuration.
-export ZSH=$HOME/.oh-my-zsh
+ZSH=$HOME/.oh-my-zsh
 
 #source $ZSH/custom/env_linux.zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-#export ZSH_THEME="robbyrussell"
-# export ZSH_THEME="ptrv4"
-# export ZSH_THEME="ptrv6"
-export ZSH_THEME="ptrv8"
-
+# export ZSH_THEME="sunaku"
+ZSH_THEME="ptrv8"
+# Example aliases
+alias zshconfig="vim ~/.zshrc && source ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
 # Set to this to use case-sensitive completion
-# export CASE_SENSITIVE="true"
+# CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
-export DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment following line if you want to disable colors in ls
 # export DISABLE_LS_COLORS="true"
@@ -29,7 +29,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mercurial subversion tortoisehg git-flow github gem command-not-found ruby pip taskwarrior rsync extract)
+plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python)
 
 source $ZSH/oh-my-zsh.sh
 
