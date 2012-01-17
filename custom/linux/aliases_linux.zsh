@@ -99,11 +99,12 @@ alias gp='git push'
 alias gst='git status'
 alias t='tig'
 alias gt='tig status'
-alias g='git status'
+alias g='git status --short'
 alias eg='vim .git/config'
-alias glog='git log'
+alias glog='git smart-log'
 alias gsub='git branch --set-upstream'
 alias gflow='git flow'
+alias gls='git smart-pull'
 
 # Mercurial
 alias hge="vim .hg/hgrc"
