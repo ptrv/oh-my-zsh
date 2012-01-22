@@ -108,11 +108,12 @@ alias gnp="git-notpushed"
 alias gst='git status'
 # alias gt='tig status'
 # alias t='tig'
-alias g='git status'
+alias g='git status --short'
 alias eg='vim .git/config'
-alias glog='git log'
+alias glog='git smart-log'
 alias glogo='git log --pretty=oneline --all'
 alias glogn='git log --name-status'
+alias gls='git smart-pull'
 
 # Mercurial
 alias hge="vim .hg/hgrc"
