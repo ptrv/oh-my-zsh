@@ -1,0 +1,1 @@
+/usr/bin/markdown $1 > $1.html 
