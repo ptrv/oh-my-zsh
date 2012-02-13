@@ -177,3 +177,6 @@ alias pbpaste='xclip -selection clipboard -o'
 
 # cpu info
 alias cpuinfo='cat /proc/cpuinfo'
+
+# xdg-open
+alias open='xdg-open'
