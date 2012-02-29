@@ -29,9 +29,11 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein)
+plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm)
 
 source $ZSH/oh-my-zsh.sh
 
 
 # export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/peter/bin:/opt/local/bin:/Library/Ruby/Gems/1.8/gems:/Users/peter/src/clang:/usr/local/ant/bin:/Users/peter/src/homebrew/bin
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
