@@ -11,7 +11,7 @@ _fossil() {
 
     case $state in
     command)
-	_arguments '1:commands:(add addremove all annotate bisect branch changes clean clone commit diff export extras finfo gdiff help import info init ls merge mv open pull push rebuild remote-url revert rm settings sqlite3 stash status sync tag timeline ui undo update version)'
+	_arguments '1:commands:(add co info remote-url tarball addremove commit init rename ticket all configuration leaves revert timeline annotate deconstruct ls rm ui artifact delete md5sum scrub undo bisect descendants merge search unset branch diff mv server update cgi export new settings user changes extras open sha1sum version checkout finfo pull sqlite3 whatis ci gdiff push stash wiki clean help rebuild status zip clone http reconstruct sync close import redo tag)'
     ;;
     *)
 	case $words[2] in
