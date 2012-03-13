@@ -8,7 +8,8 @@ ZSH=$HOME/.oh-my-zsh
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # export ZSH_THEME="sunaku"
-ZSH_THEME="ptrv8"
+# ZSH_THEME="ptrv8"
+ZSH_THEME="ptrv_nicoulaj"
 # Example aliases
 alias zshconfig="vim ~/.zshrc && source ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
