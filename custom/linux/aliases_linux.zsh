@@ -183,3 +183,10 @@ alias cpuinfo='cat /proc/cpuinfo'
 
 # xdg-open
 alias open='xdg-open'
+
+# fossil
+alias fos="fossil status"
+alias foc="fossil commit"
+alias fod="fossil diff | vim -R -"
+alias fodv="fossil gdiff"
+alias fou="fossil ui &"
