@@ -38,9 +38,8 @@ zstyle ':vcs_info:*:*' unstagedstr '!'
 zstyle ':vcs_info:*:*' stagedstr '+'
 zstyle ':vcs_info:*:*' actionformats "%S" "%r/%s/%b %u%c (%a)"
 zstyle ':vcs_info:hg:*' branchformat '%b'
-zstyle ':vcs_info:hg:*' formats "%S" "%r/%s/%b:%8.8i %u%c"
-zstyle ':vcs_info:git:*' formats "%S" "%r/%s/%b:%8.8i %u%c"
-zstyle ':vcs_info:*:*' formats "%S" "%r/%s/%b %u%c"
+zstyle ':vcs_info:*:*' formats "%S" "%r/%s/%b:%8.8i %u%c"
+zstyle ':vcs_info:svn:*' formats "%S" "%r/%s/%b %u%c"
 zstyle ':vcs_info:*:*' nvcsformats "%~" ""
 
 # Define prompts.
