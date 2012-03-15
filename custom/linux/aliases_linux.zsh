@@ -184,6 +184,11 @@ alias cpuinfo='cat /proc/cpuinfo'
 # xdg-open
 alias open='xdg-open'
 
+# tmux
+# alias tmux="tmux -2"
+alias tmux.python-dev="~/.tmux/python-dev"
+alias tmux.default="~/.tmux/default"
+
 # fossil
 alias fos="fossil status"
 alias foc="fossil commit"
