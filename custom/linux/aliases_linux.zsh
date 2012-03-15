@@ -186,8 +186,8 @@ alias open='xdg-open'
 
 # tmux
 # alias tmux="tmux -2"
-alias tmux.python-dev="~/.tmux/python-dev"
-alias tmux.default="~/.tmux/default"
+alias tm.python-dev="~/.tmux/python-dev"
+alias tm.default="~/.tmux/default"
 
 # fossil
 alias fos="fossil status"
