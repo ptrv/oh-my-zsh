@@ -77,8 +77,8 @@ alias ff='open -a Firefox'
 # General code
 
 # Processes
-alias tu='top -o cpu' # cpu
-alias tm='top -o rsize' # memory
+# alias tu='top -o cpu' # cpu
+# alias tm='top -o rsize' # memory
 
 # Git
 # alias git='hub'
