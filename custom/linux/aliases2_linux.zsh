@@ -7,6 +7,7 @@ export MYDOWNLOADS=~/Downloads
 export MYDOCUMENTS=~/Documents
 export MYUNI=~/tu
 export MYAPPS=~/applications
+export MYSUPERCOLLIDER=~/scwork
 
 # commands to change dirs
 alias to.temp='cd ${MYTEMP}'
@@ -18,6 +19,7 @@ alias to.python='cd ${MYCODEPYTHON}'
 alias to.java='cd ${MYCODEJAVA}'
 alias to.uni='cd ${MYUNI}'
 alias to.apps='cd ${MYAPPS}'
+alias to.sc='cd ${MYSUPERCOLLIDER}'
 
 #OFten useful to prefix with SUDO to see more system level network usage
 alias network.connections='sudo lsof -l -i +L -R -V'
