@@ -57,7 +57,6 @@ export RSENSE_HOME=~/opt/rsense-0.3
 # export SCANBUILDVIEW_PATH=~/compiledir/llvm/tools/clang/tools/scan-view
 # export PATH=$CLANG_PATH:$SCANBUILD_PATH:$SCANBUILDVIEW_PATH:$PATH
 
+[ -z "$TMUX" ] && export TERM=xterm-256color
 export JAVA_HOME=/usr/lib/jvm/java-6-sun
 
-
-export TERM=xterm-256color
