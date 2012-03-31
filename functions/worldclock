@@ -1,0 +1,22 @@
+ADDIS_ABABA=`TZ=Africa/Addis_Ababa date +"%a %d/%m/%Y %T (%z %Z)"`
+BERLIN=`TZ=Europe/Berlin date +"%a %d/%m/%Y %T (%z %Z)"`
+CHICAGO=`TZ=America/Chicago date +"%a %d/%m/%Y %T (%z %Z)"`
+HONK_KONG=`TZ=Asia/Hong_Kong date +"%a %d/%m/%Y %T (%z %Z)"`
+LONDON=`TZ=Europe/London date +"%a %d/%m/%Y %T (%z %Z)"`
+LOS_ANGELES=`TZ=America/Los_Angeles date +"%a %d/%m/%Y %T (%z %Z)"`
+MOSCOW=`TZ=Europe/Moscow date +"%a %d/%m/%Y %T (%z %Z)"`
+NEW_YORK=`TZ=America/New_York date +"%a %d/%m/%Y %T (%z %Z)"`
+SOFIA=`TZ=Europe/Sofia date +"%a %d/%m/%Y %T (%z %Z)"`
+SYDNEY=`TZ=Australia/Sydney date +"%a %d/%m/%Y %T (%z %Z)"`
+TOKYO=`TZ=Asia/Tokyo date +"%a %d/%m/%Y %T (%z %Z)"`
+echo "Addis Ababa        $ADDIS_ABABA"
+echo "* Berlin           $BERLIN"
+echo "Chicago            $CHICAGO"
+echo "Hong Kong          $HONK_KONG"
+echo "London             $LONDON"
+echo "* Los Angeles      $LOS_ANGELES"
+echo "Moscow             $MOSCOW"
+echo "New York           $NEW_YORK"
+echo "Sofia              $SOFIA"
+echo "Sydney             $SYDNEY"
+echo "Tokyo              $TOKYO"
