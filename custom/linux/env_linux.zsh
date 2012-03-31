@@ -44,7 +44,8 @@ export PATH=$PATH:~/src/fast-export/bin
 # export GIT_EXTERNAL_DIFF=/home/peter/bin/extKdiff3
 # export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiffMerge
 
-source /etc/profile.d/autojump.zsh
+# source /etc/profile.d/autojump.zsh
+[[ -f ~/.autojump/etc/profile.d/autojump.zsh ]] && source ~/.autojump/etc/profile.d/autojump.zsh
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lin/jni
 
