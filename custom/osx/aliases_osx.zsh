@@ -56,9 +56,10 @@ alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
 alias mkdd='mkdir $(date +%Y%m%d)'
-alias s='cd ..'   # up one dir
-alias s.='cd ../..'
-alias s..='cd ../../..'
+# alias s='cd ..'   # up one dir
+# alias s.='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 
 alias 1='cd -'
 alias 2='cd +2'
@@ -89,6 +90,7 @@ alias tm='top -o rsize' # memory
 # Git
 # function git(){hub $@}
 #alias git="hub"
+alias cola="cola &"
 alias wtf="git-wtf"
 alias gx="gitx"
 alias gy="gity"

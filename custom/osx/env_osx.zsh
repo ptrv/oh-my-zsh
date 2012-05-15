@@ -1,6 +1,6 @@
 # PATH
 # export PATH=~/bin:~/QtSDK/Desktop/Qt/473/gcc/bin:/usr/local/bin:/usr/local/sbin:$PATH
-export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/local/sbin:/usr/texbin:$PATH
 # 
 # General
 export PAGER=less
