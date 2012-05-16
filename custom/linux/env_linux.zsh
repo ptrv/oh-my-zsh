@@ -31,11 +31,11 @@ export PATH=$PATH:/var/lib/gems/bin
 export JRUBY_HOME=~/src/jruby
 export PATH=$PATH:$JRUBY_HOME/bin
 
-export PYTHONPATH=/usr/lib/python2.6/site-packages:${PYTHONPATH}
+export PYTHONPATH=${PYTHONPATH}:~/src/pysal
 export PYTHONSTARTUP=~/.pythonrc
 
-export ANDROID_SDK=~/android-sdk-linux_x86
-export PATH=$PATH:$ANDROID_SDK/tools
+export ANDROID_SDK=/home/peter/SDKs/android-sdk-linux_x86
+export PATH=$PATH:$ANDROID_SDK/platform-tools
 
 export PATH=$PATH:~/src/fast-export/bin
 
@@ -43,11 +43,12 @@ export PATH=$PATH:~/src/fast-export/bin
 # export GIT_EXTERNAL_DIFF=/home/peter/bin/extP4diff
 # export GIT_EXTERNAL_DIFF=/home/peter/bin/extKdiff3
 # export GIT_EXTERNAL_DIFF=/home/peter/bin/extDiffMerge
+# export GIT_EXTERNAL_DIFF=/home/peter/bin/extVimdiff
 
 # source /etc/profile.d/autojump.zsh
 [[ -f ~/.autojump/etc/profile.d/autojump.zsh ]] && source ~/.autojump/etc/profile.d/autojump.zsh
 
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lin/jni
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lin/jni
 
 export RSENSE_HOME=~/opt/rsense-0.3
 
@@ -58,6 +59,8 @@ export RSENSE_HOME=~/opt/rsense-0.3
 # export SCANBUILDVIEW_PATH=~/compiledir/llvm/tools/clang/tools/scan-view
 # export PATH=$CLANG_PATH:$SCANBUILD_PATH:$SCANBUILDVIEW_PATH:$PATH
 
-[ -z "$TMUX" ] && export TERM=xterm-256color
-export JAVA_HOME=/usr/lib/jvm/java-6-sun
+[ -z "$TMUX" ] && export TERM=xterm-256color && stty -ixon
 
+export JAVA_HOME=/opt/java/64/jdk1.6.0
+
+# export SCLANG_RUNDIR=/home/peter/scwork
