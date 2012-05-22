@@ -64,3 +64,5 @@ export RSENSE_HOME=~/opt/rsense-0.3
 export JAVA_HOME=/opt/java/64/jdk1.6.0
 
 # export SCLANG_RUNDIR=/home/peter/scwork
+
+export VIMCLOJURE_SERVER_JAR="$HOME/development_clojure/lib/vimclojure/server-2.3.1.jar"
