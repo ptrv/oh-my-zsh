@@ -150,13 +150,13 @@ alias irb='irb --readline -r irb/completion'
 # alias g++="/usr/bin/g++-4.0"
 
 # package management
-alias sapti="sudo apt-get install"
-alias saptr="sudo apt-get remove"
-alias saptu="sudo apt-get upgrade"
-alias saptuu="sudo apt-get dist-upgrade"
-alias saptd="sudo apt-get update"
-alias saptc="apt-cache search"
-alias sapts="apt-cache show"
+# alias sapti="sudo apt-get install"
+# alias saptr="sudo apt-get remove"
+# alias saptu="sudo apt-get upgrade"
+# alias saptuu="sudo apt-get dist-upgrade"
+# alias saptd="sudo apt-get update"
+# alias saptc="apt-cache search"
+# alias sapts="apt-cache show"
 
 # audacious2
 alias play='audacious2'
