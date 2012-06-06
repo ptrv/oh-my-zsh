@@ -117,7 +117,7 @@ alias hgk="hg view"
 #alias emacs="emacsclient"
 alias emm="emacsclient -n -c"
 alias em="emacsclient -c"
-alias emt="emacsclient -t"
+alias et="emacsclient -t"
 
 # Cmake
 function cmg(){cmake-gui $@ &}
