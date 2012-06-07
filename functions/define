@@ -1,0 +1,7 @@
+# http://vitobotta.com/using-google-define-search-feature-terminal/
+define() { 
+    wget -qO- -U "Mozilla/6.0 (Macintosh; I; Intel Mac OS X 11_7_9; de-LI; rv:1.9b4) Gecko/2012010317 Firefox/10.0a4" http://www.google.co.uk/search\?q\=$@\&tbs\=dfn:1 \
+    | grep -Po '(?<=<li style="list-style:none">)[^<]+' \
+    | nl \
+    | perl -MHTML::Entities -pe 'decode_entities($_)' 2>/dev/null; 
+}
