@@ -170,6 +170,7 @@ alias gwd="pwd | xclip"
 # removing dotfiles 
 alias rm-Dot_svn="find . -name '.svn' -exec rm -rf '{}' \;"
 alias rm-Dot_git="find . -name '.git' -exec rm -rf '{}' \;"
+alias rm-elc="find ./ -type f -name '*.elc' -delete;"
 
 # iftop shows Bytes/sec
 alias iftop="sudo iftop -B"
