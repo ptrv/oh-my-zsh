@@ -1,0 +1,1 @@
+/usr/local/go/misc/zsh/go
