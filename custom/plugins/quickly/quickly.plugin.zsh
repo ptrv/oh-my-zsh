@@ -5,13 +5,26 @@ function _quickly_commands() {
     case $state in
       subcommand)
         subcommands=(
-          "new"
-          "edit"
-          "design"
-          "save"
+          "add"
+          "commands"
+          "configure"
+          "create"
           "debug"
-          "share"
+          "design"
+          "edit"
+          "getstarted"
+          "help"
+          "license"
           "package"
+          "quickly"
+          "release"
+          "run"
+          "save"
+          "share"
+          "submitubuntu"
+          "test"
+          "tutorial"
+          "upgrade"
         )
         _describe -t subcommands 'quickly subcommands' subcommands && ret=0
     esac
