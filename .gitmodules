@@ -1,0 +1,3 @@
+[submodule "custom/vcprompt"]
+	path = custom/vcprompt
+	url = https://github.com/djl/vcprompt.git
