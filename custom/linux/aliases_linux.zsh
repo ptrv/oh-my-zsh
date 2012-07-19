@@ -68,7 +68,9 @@ alias 9='cd +9'
 
 # alias grep='grep -in' # --color=auto'  case insensitive grep
 
-alias e='exit'
+alias e='$EDITOR $@'
+alias e.='$EDITOR .'
+
 alias k9="killall -9"
 
 # Finder
