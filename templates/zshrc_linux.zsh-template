@@ -39,6 +39,17 @@ plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby p
 
 source $ZSH/oh-my-zsh.sh
 
+# Workaround for emacs tramp mode hanging on connect
+# http://www.emacswiki.org/emacs/TrampMode#toc7
+if [[ "$TERM" == "dumb" ]]
+then
+    unsetopt zle
+    unsetopt prompt_cr
+    unsetopt prompt_subst
+    unfunction precmd
+    unfunction preexec
+    PS1='$ '
+fi
 
 # export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/peter/bin:/opt/local/bin:/Library/Ruby/Gems/1.8/gems:/Users/peter/src/clang:/usr/local/ant/bin:/Users/peter/src/homebrew/bin
 
