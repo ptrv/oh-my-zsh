@@ -13,4 +13,3 @@ function update {
 function synchronize {
     rsync -avu --delete --progress -h "$1" "$2"
 }
-

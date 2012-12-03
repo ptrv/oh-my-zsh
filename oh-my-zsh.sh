@@ -14,7 +14,9 @@ for config_file ($ZSH/custom/*.zsh) source $config_file
 
 # Load all of the config files in ~/oh-my-zsh that end in .zsh
 # TIP: Add files you don't want in git to .gitignore
-for config_file ($ZSH/lib/*.zsh) source $config_file
+for config_file ($ZSH/lib/*.zsh); do
+  source $config_file
+done
 
 # Set ZSH_CUSTOM to the path where your custom config files
 # and plugins exists, or else we will use the default custom/
@@ -53,7 +55,9 @@ for plugin ($plugins); do
 done
 
 # Load all of your custom configurations from custom/
-for config_file ($ZSH_CUSTOM/*.zsh(N)) source $config_file
+for config_file ($ZSH_CUSTOM/*.zsh(N)); do
+  source $config_file
+done
 
 # Load the theme
 if [ "$ZSH_THEME" = "random" ]
