@@ -1,3 +1,6 @@
 [submodule "custom/vcprompt"]
 	path = custom/vcprompt
 	url = https://github.com/djl/vcprompt.git
+[submodule "custom/pandoc-completion"]
+	path = custom/pandoc-completion
+	url = https://github.com/dsanson/pandoc-completion.git
