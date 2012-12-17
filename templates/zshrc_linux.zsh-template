@@ -36,23 +36,10 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm django ubuntu go quickly)
 
 fpath=($ZSH/custom/functions $fpath)
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    fpath=($ZSH/custom/linux/functions $fpath)
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-    fpath=($ZSH/custom/osx/functions $fpath)
-fi
-
+fpath=($ZSH/custom/linux/functions $fpath)
 [[ -f ~/.autojump/etc/profile.d/autojump.zsh ]] && fpath=($HOME/.autojump/functions $fpath)
 
 source $ZSH/oh-my-zsh.sh
-
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    source $ZSH/custom/linux/env_linux.zsh
-    source $ZSH/custom/linux/aliases_linux.zsh
-    source $ZSH/custom/linux/aliases2_linux.zsh
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-    # ...
-fi
 
 # Workaround for emacs tramp mode hanging on connect
 # http://www.emacswiki.org/emacs/TrampMode#toc7
