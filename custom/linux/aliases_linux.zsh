@@ -14,8 +14,10 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
 alias sz="echo 'source ~/.zshrc' && source ~/.zshrc"
-alias ea='vim -f $ZSH/custom/linux/aliases_linux.zsh && reload' # Edit aliases
-alias ee="vim $ZSH/custom/linux/env_linux.zsh"
+alias ea="$EDITOR $ZSH/custom/linux/aliases_linux.zsh && reload" # Edit aliases
+alias ee="$EDITOR $ZSH/custom/linux/env_linux.zsh"
+alias zshconfig="$EDITOR ~/.zshrc && source ~/.zshrc"
+alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 
 alias myip='curl -s http://checkrealip.com/ | grep "Current IP Address"'
 
@@ -68,7 +70,7 @@ alias 9='cd +9'
 
 # alias grep='grep -in' # --color=auto'  case insensitive grep
 
-alias e='$EDITOR $@'
+alias e='$EDITOR'
 alias e.='$EDITOR .'
 
 alias k9="killall -9"
@@ -90,6 +92,7 @@ alias ff='open -a Firefox'
 alias wtf="git-wtf"
 alias gx="cola -r . &"
 alias gk="gitk --all &"
+alias gkw="gitk --all --word-diff=color &"
 alias ggui="git gui &"
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gb='git branch'
@@ -114,15 +117,17 @@ alias gflow='git flow'
 alias gls='git smart-pull'
 
 # Mercurial
-alias hge="vim .hg/hgrc"
+alias hge="$EDITOR .hg/hgrc"
 alias hgk="hg view"
 
 # Text editing
 # Emacs
 #alias emacs="emacsclient"
+alias em="emacsclient"
 alias emm="emacsclient -n -c"
-alias em="emacsclient -c"
-alias et="emacsclient -t"
+
+alias je="jedit"
+alias slime="sublime-text"
 
 # Cmake
 function cmg(){cmake-gui $@ &}
@@ -203,3 +208,8 @@ alias foc="fossil commit"
 alias fod="fossil diff | vim -R -"
 alias fodv="fossil gdiff"
 alias fou="fossil ui &"
+
+# quickly
+alias qe="quickly edit"
+alias qr="quickly run"
+alias qd="quickly design"

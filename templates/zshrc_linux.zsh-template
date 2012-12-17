@@ -15,9 +15,7 @@ if [[ -n ${INSIDE_EMACS} ]]; then
     ZSH_THEME="themes/robbyrussell2"
 fi
 # ZSH_THEME="ptrv_nicoulaj"
-# Example aliases
-alias zshconfig="vim ~/.zshrc && source ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -37,7 +35,24 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm django ubuntu go quickly)
 
+fpath=($ZSH/custom/functions $fpath)
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    fpath=($ZSH/custom/linux/functions $fpath)
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    fpath=($ZSH/custom/osx/functions $fpath)
+fi
+
+[[ -f ~/.autojump/etc/profile.d/autojump.zsh ]] && fpath=($HOME/.autojump/functions $fpath)
+
 source $ZSH/oh-my-zsh.sh
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    source $ZSH/custom/linux/env_linux.zsh
+    source $ZSH/custom/linux/aliases_linux.zsh
+    source $ZSH/custom/linux/aliases2_linux.zsh
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    # ...
+fi
 
 # Workaround for emacs tramp mode hanging on connect
 # http://www.emacswiki.org/emacs/TrampMode#toc7

@@ -9,13 +9,14 @@ export PAGER=less
 # Ruby
 export RUBYOPT=-rrubygems
 
-export GREP_OPTIONS='--color=auto' 
+export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;36'
 
 
-#export EDITOR="emacsclient -c"
+export EDITOR=~/bin/editor
+# export EDITOR=subl
 export ALTERNATE_EDITOR=""
-export EDITOR=vim
+# export EDITOR=vim
 #export MATLAB="/usr/local/matlab7"
 #export MATLAB_JAVA="/usr/local/matlab7/sys/java/jre/glnx86/jre1.4.2"
 #LD_LIBRARY_PATH="/usr/local/matlab7/bin/glnx86:$LD_LIBRARY_PATH"
@@ -61,8 +62,15 @@ export RSENSE_HOME=~/opt/rsense-0.3
 
 [ -z "$TMUX" ] && export TERM=xterm-256color && stty -ixon
 
-export JAVA_HOME=/opt/java/64/jdk1.6.0
+#export JAVA_HOME=/opt/java/64/jdk1.6.0
 
 # export SCLANG_RUNDIR=/home/peter/scwork
 
 export VIMCLOJURE_SERVER_JAR="$HOME/development_clojure/lib/vimclojure/server-2.3.1.jar"
+
+export PATH=$PATH:/usr/local/go/bin
+
+export QUICKLY_EDITOR=~/bin/editor2
+# export QUICKLY_EDITOR=subl
+
+export PATH=$PATH:~/applications/processing-2.0
