@@ -33,7 +33,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm django ubuntu go quickly)
+plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm django ubuntu go quickly cp git-extras vagrant)
 
 fpath=($ZSH/custom/functions $fpath)
 fpath=($ZSH/custom/linux/functions $fpath)
