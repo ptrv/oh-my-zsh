@@ -41,12 +41,14 @@ alias la="ls -A -l -G"
 alias c='clear'
 # alias ..="cd .."
 alias cdd='cd -'  # goto last dir cd'ed from
-alias cl='clear; l'
+# alias cl='clear; l'
+alias cl='clear && pwd && ls -FhGl'
 alias cls='clear; ls'
 alias hist='history'
 alias l.='ls -d .[^.]*'
 alias l='ls -lhGt'  # -l long listing, most recent first
                     # -G color
+alias u="cd .. && l"
 alias lh="ls -lh"
 alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
@@ -169,11 +171,11 @@ alias saptc="apt-cache search"
 alias sapts="apt-cache show"
 
 # audacious2
-alias play='audacious2'
-alias aup='audacious2 -p'
-alias aue='audacious2 -e'
-alias auf='audacious2 -f'
-alias aur='audacious2 -r'
+alias play='audacious'
+alias aup='audacious -p'
+alias aue='audacious -e'
+alias auf='audacious -f'
+alias aur='audacious -r'
 
 alias gwd="pwd | xclip"
 

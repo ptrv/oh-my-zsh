@@ -1,0 +1,10 @@
+SOURCE=$1
+
+if [ -d $2 ]
+then
+    DESTINATION=$2/`basename $SOURCE`
+else
+    DESTINATION=$2
+fi
+
+pv ${SOURCE} | > ${DESTINATION}
