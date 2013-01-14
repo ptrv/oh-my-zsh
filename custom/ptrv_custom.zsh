@@ -35,7 +35,7 @@ REPORTTIME=10 # Show elapsed time if command took more than X seconds
 autoload -U $ZSH/custom/functions/*(:t)
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     autoload -U $ZSH/custom/linux/functions/*(:t)
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+elif [[ "$OSTYPE" == "darwin" ]]; then
     autoload -U $ZSH/custom/osx/functions/*(:t)
 fi
 
@@ -47,7 +47,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
     source $ZSH/custom/linux/env_linux.zsh
     source $ZSH/custom/linux/aliases_linux.zsh
     source $ZSH/custom/linux/aliases2_linux.zsh
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+elif [[ "$OSTYPE" == "darwin" ]]; then
     source $ZSH/custom/osx/env_osx.zsh
     source $ZSH/custom/linux/aliases_osx.zsh
 fi
