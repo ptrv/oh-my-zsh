@@ -1,0 +1,5 @@
+if [[ -z "$1" ]]; then
+    xdg-open . > /dev/null
+else
+    xdg-open "$1" &> /dev/null &
+fi
