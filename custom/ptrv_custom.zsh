@@ -57,7 +57,6 @@ fi
 ################################################
 
 LOCAL_CONF="$ZSH_CUSTOM/ptrv_$HOST.zsh"
-echo $LOCAL_CONF
 if [ -s "$LOCAL_CONF" ]; then
     source $LOCAL_CONF
 fi
