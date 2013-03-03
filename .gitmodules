@@ -4,3 +4,6 @@
 [submodule "custom/pandoc-completion"]
 	path = custom/pandoc-completion
 	url = https://github.com/dsanson/pandoc-completion.git
+[submodule "custom/zsh-completions"]
+	path = custom/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
