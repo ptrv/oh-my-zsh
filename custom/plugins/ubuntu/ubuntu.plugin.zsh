@@ -1,7 +1,7 @@
 # Aliases ###################################################################
 # These are for more obscure uses of apt-get and aptitude that aren't covered
 # below.
-alias ag='apt-get'
+# alias ag='apt-get'
 
 # Some self-explanatory aliases
 alias acs="apt-cache search"
@@ -18,11 +18,11 @@ alias ap='apt-cache policy'
 alias aac='sudo apt-get autoclean'
 alias abd='sudo apt-get build-dep'
 alias ac='sudo apt-get clean'
-alias ad='sudo apt-get update'
+alias aud='sudo apt-get update'
 alias adg='sudo apt-get update && sudo apt-get upgrade'
 alias adu='sudo apt-get update && sudo apt-get dist-upgrade'
 alias afu='sudo apt-file update'
-alias ag='sudo apt-get upgrade'
+alias aug='sudo apt-get upgrade'
 alias ai='sudo apt-get install'
 # Install all packages given on the command line while using only the first word of each line:
 # acs ... | ail
