@@ -51,3 +51,13 @@ elif [[ "$OSTYPE" == "darwin" ]]; then
     source $ZSH/custom/osx/env_osx.zsh
     source $ZSH/custom/linux/aliases_osx.zsh
 fi
+
+################################################
+# load local config
+################################################
+
+LOCAL_CONF="$ZSH_CUSTOM/ptrv_$HOST.zsh"
+echo $LOCAL_CONF
+if [ -s "$LOCAL_CONF" ]; then
+    source $LOCAL_CONF
+fi
