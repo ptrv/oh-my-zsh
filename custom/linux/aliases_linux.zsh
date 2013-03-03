@@ -195,7 +195,7 @@ alias pbpaste='xclip -selection clipboard -o'
 alias cpuinfo='cat /proc/cpuinfo'
 
 # xdg-open
-alias open='xdg-open'
+alias o="open"
 
 # tmux
 # alias tmux="tmux -2"
@@ -215,3 +215,7 @@ alias fou="fossil ui &"
 alias qe="quickly edit"
 alias qr="quickly run"
 alias qd="quickly design"
+
+################################################
+
+alias netlisteners='lsof -i -P | grep LISTEN'
