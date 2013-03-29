@@ -219,3 +219,5 @@ alias qd="quickly design"
 ################################################
 
 alias netlisteners='lsof -i -P | grep LISTEN'
+
+alias gop="cd $GOPATH"

@@ -74,3 +74,6 @@ export QUICKLY_EDITOR=~/bin/editor2
 # export QUICKLY_EDITOR=subl
 
 export PATH=$PATH:~/applications/processing-2.0
+
+export GOPATH=$HOME/gocode
+export PATH=$PATH:$GOPATH/bin
