@@ -31,6 +31,7 @@ alias to.github='cd ${MYGITHUBREPOS}'
 alias to.projects='cd ${MYPROJECTS}'
 alias to.hg='cd ${MYHGREPOS}'
 alias to.zsh='cd ${ZSH}'
+alias to.gocode='cd $HOME/gocode'
 
 #OFten useful to prefix with SUDO to see more system level network usage
 alias network.connections='sudo lsof -l -i +L -R -V'
