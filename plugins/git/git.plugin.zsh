@@ -4,7 +4,9 @@
 alias g='git status'
 #compdef g=git-status
 alias gst='git status'
-#compdef _git gst=git-status
+compdef _git gst=git-status
+alias gd='git diff'
+compdef _git gd=git-diff
 alias gl='git pull'
 compdef _git gl=git-pull
 alias gup='git pull --rebase'
