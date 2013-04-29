@@ -79,3 +79,6 @@ export GOPATH=$HOME/gocode
 export PATH=$PATH:$GOPATH/bin
 
 export PATH=/home/peter/.carton/bin:$PATH
+
+export GOPATH=$HOME/gocode
+export PATH=$PATH:$HOME/gocode/bin
