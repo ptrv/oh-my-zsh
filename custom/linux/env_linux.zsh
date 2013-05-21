@@ -77,3 +77,8 @@ export PATH=$PATH:~/applications/processing-2.0
 
 export GOPATH=$HOME/gocode
 export PATH=$PATH:$GOPATH/bin
+
+export PATH=/home/peter/.carton/bin:$PATH
+
+export GOPATH=$HOME/gocode
+export PATH=$PATH:$HOME/gocode/bin
