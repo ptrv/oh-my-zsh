@@ -13,7 +13,8 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;36'
 
 
-export EDITOR=~/bin/editor
+export EDITOR="emacsclient"
+# export EDITOR=~/bin/editor
 # export EDITOR=subl
 export ALTERNATE_EDITOR=""
 # export EDITOR=vim

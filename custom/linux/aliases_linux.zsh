@@ -14,8 +14,8 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
 alias sz="echo 'source ~/.zshrc' && source ~/.zshrc"
-alias ea="$EDITOR $ZSH/custom/linux/aliases_linux.zsh && reload" # Edit aliases
-alias ee="$EDITOR $ZSH/custom/linux/env_linux.zsh"
+alias ea="emacsclient $ZSH/custom/linux/aliases_linux.zsh && reload" # Edit aliases
+alias ee="emacsclient --no-wait $ZSH/custom/linux/env_linux.zsh"
 alias zshconfig="$EDITOR ~/.zshrc && source ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 
@@ -60,25 +60,27 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 
-alias 1='cd -'
-alias 2='cd +2'
-alias 3='cd +3'
-alias 4='cd +4'
-alias 5='cd +5'
-alias 6='cd +6'
-alias 7='cd +7'
-alias 8='cd +8'
-alias 9='cd +9'
+alias afind='ag -il'
+
+# alias 1='cd -'
+# alias 2='cd -2'
+# alias 3='cd -3'
+# alias 4='cd -4'
+# alias 5='cd -5'
+# alias 6='cd -6'
+# alias 7='cd -7'
+# alias 8='cd -8'
+# alias 9='cd -9'
 
 # alias grep='grep -in' # --color=auto'  case insensitive grep
 
-alias e='$EDITOR'
-alias e.='$EDITOR .'
+alias e='emacsclient -n'
+alias e.='emacsclient -n .'
 
 alias k9="killall -9"
 
 # Finder
-alias o='nautilus .'
+# alias o='thunar .'
 # alias o='open .'
 alias ff='open -a Firefox'
 
@@ -102,7 +104,7 @@ alias gba='git branch -a'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gco='git checkout'
-alias gd='git_diff'
+alias gd='git diff'
 alias gdm='git diff master'
 alias gl='git pull -v'
 alias gnp="git-notpushed"
@@ -221,3 +223,5 @@ alias qd="quickly design"
 alias netlisteners='lsof -i -P | grep LISTEN'
 
 alias gop="cd $HOME/gocode"
+
+alias cau="carton update"
