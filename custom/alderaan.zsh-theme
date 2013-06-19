@@ -1,1 +1,1 @@
-themes/ptrv9.zsh-theme
+anoth.zsh-theme

@@ -33,7 +33,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm django ubuntu go quickly cp git-extras vagrant)
+plugins=(git mercurial subversion tortoisehg github gem command-not-found ruby pip rsync extract python lein rvm django ubuntu go quickly cp git-extras vagrant archlinux)
 
 fpath=($ZSH/custom/functions $fpath)
 fpath=($ZSH/custom/linux/functions $fpath)
@@ -55,10 +55,13 @@ fi
 
 # export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/peter/bin:/opt/local/bin:/Library/Ruby/Gems/1.8/gems:/Users/peter/src/clang:/usr/local/ant/bin:/Users/peter/src/homebrew/bin
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-SSH_AUTH_SOCK=`netstat -xl | grep -o '/home/peter/.cache/keyring-.*/ssh$'`
+SSH_AUTH_SOCK=`netstat -xl | grep -o '/run/user/1001/keyring-.*/ssh$'`
 [ -z "$SSH_AUTH_SOCK" ] || export SSH_AUTH_SOCK
 # GPG_AGENT_INFO=`netstat -xl | grep -o '/home/peter/.cache/keyring-.*/gpg$'`
 # [ -z "$GPG_AGENT_INFO" ] || export GPG_AGENT_INFO=$GPG_AGENT_INFO:0:1
+
+export PATH="$HOME/.carton/bin:$PATH"
+[[ -f ~/.carton/etc/carton_completion.zsh ]] && source "$HOME/.carton/etc/carton_completion.zsh"
