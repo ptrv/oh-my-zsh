@@ -14,10 +14,11 @@ alias tutex="cd ~/tu/2.semester/latex_einfuehrung/aufgaben_mercurial"
 # Utility
 alias reload='source $ZSH/custom/linux/aliases_linux.zsh'
 alias sz="echo 'source ~/.zshrc' && source ~/.zshrc"
+
 alias ea="emacsclient $ZSH/custom/linux/aliases_linux.zsh && reload" # Edit aliases
 alias ee="emacsclient --no-wait $ZSH/custom/linux/env_linux.zsh"
 alias zshconfig="$EDITOR ~/.zshrc && source ~/.zshrc"
-alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
+alias ohmyzsh="emacsclient -n ~/.oh-my-zsh"
 
 alias myip='curl -s http://checkrealip.com/ | grep "Current IP Address"'
 
@@ -62,26 +63,18 @@ alias ......='cd ../../../../..'
 
 alias afind='ag -il'
 
-# alias 1='cd -'
-# alias 2='cd -2'
-# alias 3='cd -3'
-# alias 4='cd -4'
-# alias 5='cd -5'
-# alias 6='cd -6'
-# alias 7='cd -7'
-# alias 8='cd -8'
-# alias 9='cd -9'
-
 # alias grep='grep -in' # --color=auto'  case insensitive grep
 
 alias e='emacsclient -n'
 alias e.='emacsclient -n .'
 
+alias E="SUDO_EDITOR=\"emacsclient -c -a emacs\" sudoedit"
+
 alias k9="killall -9"
 
 # Finder
-# alias o='thunar .'
-# alias o='open .'
+# alias o='nautilus .'
+alias o='open .'
 alias ff='open -a Firefox'
 
 # General code
@@ -128,7 +121,7 @@ alias hgk="hg view"
 # Emacs
 #alias emacs="emacsclient"
 alias em="emacsclient"
-alias emm="emacsclient -n -c"
+alias et="emacsclient -t"
 
 alias je="jedit"
 alias slime="sublime-text"
@@ -164,13 +157,13 @@ alias irb='irb --readline -r irb/completion'
 # alias g++="/usr/bin/g++-4.0"
 
 # package management
-alias sapti="sudo apt-get install"
-alias saptr="sudo apt-get remove"
-alias saptu="sudo apt-get upgrade"
-alias saptuu="sudo apt-get dist-upgrade"
-alias saptd="sudo apt-get update"
-alias saptc="apt-cache search"
-alias sapts="apt-cache show"
+# alias sapti="sudo apt-get install"
+# alias saptr="sudo apt-get remove"
+# alias saptu="sudo apt-get upgrade"
+# alias saptuu="sudo apt-get dist-upgrade"
+# alias saptd="sudo apt-get update"
+# alias saptc="apt-cache search"
+# alias sapts="apt-cache show"
 
 # audacious2
 alias play='audacious'
@@ -181,7 +174,7 @@ alias aur='audacious -r'
 
 alias gwd="pwd | xclip"
 
-# removing dotfiles 
+# removing dotfiles
 alias rm-Dot_svn="find . -name '.svn' -exec rm -rf '{}' \;"
 alias rm-Dot_git="find . -name '.git' -exec rm -rf '{}' \;"
 alias rm-elc="find ./ -type f -name '*.elc' -delete;"
@@ -189,7 +182,7 @@ alias rm-elc="find ./ -type f -name '*.elc' -delete;"
 # iftop shows Bytes/sec
 alias iftop="sudo iftop -B"
 
-# osx pbcopy / pbpaste 
+# osx pbcopy / pbpaste
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
